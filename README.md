@@ -1,5 +1,5 @@
 
-Projet de Statistiques sur la Pêche - [Tableau-de-Bord-fishes]
+Projet de Statistiques sur la Pêche - [fishes_statistic_dashboard]
 Ce projet est une plateforme basée sur Django et MongoDB, conçue pour étudier et analyser des données relatives à différentes espèces dans le domaine de la pêche.
 
 Description
