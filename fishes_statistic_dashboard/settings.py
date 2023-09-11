@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myapp',
+    'rest_framework',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +59,7 @@ ROOT_URLCONF = 'fishes_statistic_dashboard.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -78,12 +81,11 @@ from djongo import base
 from urllib.parse import quote_plus
 
 username = "hassiba"
-password = "biba0507@B"
+password = "biba0507B"
 
 escaped_username = quote_plus(username)
 escaped_password = quote_plus(password)
-
-mongo_uri = f"mongodb+srv://{escaped_username}:{escaped_password}@cluster0.m6pewhy.mongodb.net/?retryWrites=true&w=majority"
+mongo_uri = f"mongodb+srv://{escaped_username}:{escaped_password}@cluster0.inbao2s.mongodb.net/?retryWrites=true&w=majority"
 
 DATABASES = {
     'default': {
@@ -96,6 +98,8 @@ DATABASES = {
 }
 
 
+MEDIA_URL = '/uploads/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads/')
 
 
 # Password validation

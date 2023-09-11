@@ -1,0 +1,11 @@
+<!-- templates/fish_list.html -->
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h2>Fishes</h2>
+<select>
+  {% for fish in fishes %}
+    <option value="{{ fish.species_code }}">{{ fish.species_code }}</option>
+  {% endfor %}
+</select>
+{% endblock %}
