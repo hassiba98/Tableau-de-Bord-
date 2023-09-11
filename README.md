@@ -1,6 +1,3 @@
-Bien sûr, voici une version modifiée de votre fichier README qui décrit de manière approfondie le projet "fishes_statistic_dashboard":
-
----
 
 # Projet de Statistiques sur la Pêche - [fishes_statistic_dashboard]
 
@@ -79,6 +76,4 @@ Les contributions sont les bienvenues ! Si vous souhaitez améliorer une fonctio
 
 Pour toute question, suggestion ou commentaire concernant ce projet, n'hésitez pas à me contacter : hassiba@gmail.com
 
----
 
-J'espère que cette version répond à vos attentes ! N'hésitez pas à ajuster ou à ajouter des informations si nécessaire.
