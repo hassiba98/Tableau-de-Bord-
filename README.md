@@ -1,5 +1,7 @@
 
 # Projet de Statistiques sur la Pêche - [fishes_statistic_dashboard]
+Lien vers l'organisation Trello : https://trello.com/b/063v7lS8/fish-statistic
+Lien vers la presentation : https://docs.google.com/presentation/d/1MRz4amhId9p3-pJKwnnL45T6VtVgxaADEtzCRq8FL7o/edit#slide=id.g1c30983e184_0_144
 
 Ce projet est une plateforme interactive basée sur Django et MongoDB, conçue pour fournir une analyse approfondie des données relatives à différentes espèces dans le domaine de la pêche.
 
