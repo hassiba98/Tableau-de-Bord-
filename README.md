@@ -12,15 +12,15 @@ L'objectif principal de "fishes_statistic_dashboard" est de faciliter la visuali
 1. **CRUD Operations:** Permet aux utilisateurs de manipuler les données, à savoir : créer, lire, mettre à jour et supprimer des entrées.
 2. **Importation de CSV:** Les utilisateurs peuvent importer des fichiers CSV pour ajouter ou mettre à jour des données en vrac.
 3. **Nettoyage des données:** L'outil intégré supprime les doublons et corrige certaines erreurs courantes dans le dataset.
-4. **Visualisation:** Des graphiques et des tableaux interactifs pour visualiser les données.
+4. **Visualisation:** une liste interactifs pour visualiser les données.
 5. [Ajoutez ici d'autres fonctionnalités clés de votre projet]
 
 ## Mise en place en local
 
 ### Pré-requis:
 
-- Python (Version utilisée: [votre_version])
-- MongoDB (Version utilisée: [votre_version])
+- Python 3.10
+- MongoDB 
 
 ### Étapes d'installation:
 
